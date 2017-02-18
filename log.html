@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head><title>News Web Site</title>
+<link rel="stylesheet" type="text/css" href="property.css" /></head>
+
+<body>
+  <h1>
+     News Sharing <br /> 
+  </h1>  
+
+<form name="input" action="log.php" method="POST" class ="form">
+	
+	<p> Username: <input type="text" name="username" /> </p>
+	<p> Password: <input type="password" name="password" /> </p>
+	<input type="hidden" name="token" value="<?php echo $_SESSION['token'];?>" />
+		<p> <input type="submit" value="Log in" /> </p>
+</form>
+
+<form name="input" action="signup.php" method="POST" class="form">
+
+	<br /><br /><br />
+	
+    <p> Username: <input type="text" name="username" /> </p>
+    <p> Set your password: <input type="password" name="password1" /> </p>
+    <p> Confirm password: <input type="password" name="password2" /> </p>
+    <input type="hidden" name="token" value="<?php echo $_SESSION['token'];?>" />
+	<p> <input type="submit" value="Sign up" /> </p>
+</form>
+
+</body>
+</html>
