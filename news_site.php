@@ -46,6 +46,7 @@
         </div>
 <?php
   }
+  
   //Display the story list
   echo"<br>";
   require 'database.php'; 

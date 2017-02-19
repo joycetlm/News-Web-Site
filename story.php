@@ -147,8 +147,5 @@ if($username!=''){
 ?>
      
 
-  
-
-
 </body>
 </html>

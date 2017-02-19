@@ -19,8 +19,8 @@ $stmt->bind_param('s', $id);
 $stmt->execute();
 $stmt->close();
 
- header("Location:http://ec2-35-164-126-233.us-west-2.compute.amazonaws.com/~luming/News_website/story.php");   
-        exit;
+header("Location:http://ec2-35-164-126-233.us-west-2.compute.amazonaws.com/~luming/News_website/story.php");   
+exit;
 
 ?>
 </body>
